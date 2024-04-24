@@ -4,9 +4,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from flask import Flask, jsonify
-app = Flask(__name__)
-
+import requests
+import json
 HEADER = '\033[95m'
 OKBLUE = '\033[94m'
 OKCYAN = '\033[96m'
@@ -267,7 +266,6 @@ class Bot:
         time.sleep(4)
         return True
     
-    @app.route('/',methods=['GET','POST'])
     def quizExtractor(self):
         quizQuestionOption = {
             "question" :"",
@@ -279,21 +277,27 @@ class Bot:
             try: 
                 option = self.driver.find_elements_by_class_name("choice-view")
                 for i in option:
-                 optArr.append(i)
+                 optArr.append(i.text)
                  print(i.text)
             except:
                 print("options kedaikala")
         
         except:
             print("not found")
-        quizQuestionOption["question"]=question
+        quizQuestionOption["question"]=question.text
         quizQuestionOption["options"]=optArr
-        return jsonify(quizQuestionOption)
+        print(quizQuestionOption)
 
-
-
+        quiz_json = json.dumps(quizQuestionOption)
+        url = "127.0.0.1:5000/sendquestion"
+        try:
+            response = requests.post(url,json=quiz_json)
+            if response.status_code ==200:
+                print("Sent Successfully")
+            else:
+                print(response.status_code)
+        except Exception as e:
+            print(e)
     def close(self):
         customPrint("Closed Bot", "INFO")
         self.driver.close()
-if __name__ == '__main__':
-    app.run(port=5000)
