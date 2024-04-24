@@ -4,8 +4,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-
-
+from flask import Flask, jsonify
+app = Flask(__name__)
 
 HEADER = '\033[95m'
 OKBLUE = '\033[94m'
@@ -157,6 +157,7 @@ class Bot:
                     time.sleep(READ_TIME)
                     self.switchTabs()
                     self.nextPress()
+                    self.quizExtractor()
                     break
                     
 
@@ -207,6 +208,7 @@ class Bot:
                                     # If the elapsed time exceeds the maximum wait time, exit the loop
                                     if elapsed_time > max_wait_time:
                                         customPrint("Button not found within the maximum wait time. Proceeding without waiting.","INFO")
+                                        
                                         break
                                     else:
                                         
@@ -240,7 +242,7 @@ class Bot:
                 new_tab_handle = self.driver.window_handles[-1]
                 self.driver.switch_to.window(new_tab_handle)
                 customPrint("switched tabs","INFO")
-                self.nextPPress()
+                
             except:
                 customPrint("Cannot switch","ERROR")
     def defaultSwitch(self):
@@ -264,8 +266,34 @@ class Bot:
         self.driver.refresh()
         time.sleep(4)
         return True
+    
+    @app.route('/',methods=['GET','POST'])
+    def quizExtractor(self):
+        quizQuestionOption = {
+            "question" :"",
+            "options" : []}
+        optArr = []
+        try: 
+            question = self.driver.find_element_by_class_name("player-shape-view__shape-view-rich-text-view_wrap-text")
+            print(question.text)
+            try: 
+                option = self.driver.find_elements_by_class_name("choice-view")
+                for i in option:
+                 optArr.append(i)
+                 print(i.text)
+            except:
+                print("options kedaikala")
+        
+        except:
+            print("not found")
+        quizQuestionOption["question"]=question
+        quizQuestionOption["options"]=optArr
+        return jsonify(quizQuestionOption)
+
 
 
     def close(self):
         customPrint("Closed Bot", "INFO")
         self.driver.close()
+if __name__ == '__main__':
+    app.run(port=5000)
