@@ -41,7 +41,7 @@ class Bot:
         self.driver.get("https://myacademy.oracle.com/lmt/xlr8login.login?site=oa")
     # Connect to the existing Chrome session
         #options = webdriver.ChromeOptions()
-        #options.debugger_address = "localhost:4444"
+        #ptions.debugger_address = "localhost:4444"
         #self.driver = webdriver.Chrome(options=options)
 
 
@@ -156,7 +156,6 @@ class Bot:
                     time.sleep(READ_TIME)
                     self.switchTabs()
                     self.nextPress()
-                    self.quizExtractor()
                     break
                     
 
@@ -185,21 +184,26 @@ class Bot:
                         
                         if runner:
                             while True:
+                                
                                 try:
                                     try:
-                                        # Check if the next button is clickable
-                                        next_button = WebDriverWait(self.driver, 1).until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".universal-control-panel__button_next, .universal-control-panel__button_right-arrow")))
-                                        # If found, click on it and exit the loop
+                                        try:
+                                            # Check if the next button is clickable
+                                            next_button = WebDriverWait(self.driver, 1).until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".universal-control-panel__button_next, .universal-control-panel__button_right-arrow")))
+                                            # If found, click on it and exit the loop
 
-                                        next_button.click()
-                                        break
+                                            next_button.click()
+                                            break
+                                        except:
+                                            # Check if the next button is clickable
+                                            next_button = WebDriverWait(self.driver, 1).until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".uikit-primary-button_next, .uikit-primary-button_next navigation-controls__button_next")))
+                                            # If found, click on it and exit the loop
+                                            
+                                            next_button.click()
+                                            break
                                     except:
-                                         # Check if the next button is clickable
-                                        next_button = WebDriverWait(self.driver, 1).until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".uikit-primary-button_next, .uikit-primary-button_next navigation-controls__button_next")))
-                                        # If found, click on it and exit the loop
-                                        
-                                        next_button.click()
-                                        break
+                                        self.quizExtractor
+                                    
                                 
                                 except:
                                     # If the button is not found within 1 second or if it's not clickable, check elapsed time
@@ -267,44 +271,69 @@ class Bot:
         return True
     
     def quizExtractor(self):
-        quizQuestionOption = {
-            "question" :"",
-            "options" : []}
-        optArr = []
-        try: 
-            question = self.driver.find_element_by_class_name("player-shape-view__shape-view-rich-text-view_wrap-text")
-            print(question.text)
+        quizCounter= 0 
+        while (quizCounter!=2):
+            quizQuestionOption = {
+                "question" :"",
+                "options" : []}
+            
+            optArr = []
             try: 
-                option = self.driver.find_elements_by_class_name("choice-view")
-                for i in option:
-                 optArr.append(i.text)
-                 print(i.text)
+                question = self.driver.find_element_by_class_name("player-shape-view__shape-view-rich-text-view_wrap-text")
+                print(question.text)
+                try: 
+                    option = self.driver.find_elements_by_class_name("choice-view")
+                    for i in option:
+                        optArr.append(i.text)
+                        print(i.text)
+                except:
+                    print("options kedaikala")
+            
             except:
-                print("options kedaikala")
-        
-        except:
-            print("not found")
-        quizQuestionOption["question"]=question.text
-        quizQuestionOption["options"]=optArr
-        print(quizQuestionOption)
+                print("not found")
 
-        quiz_json = json.dumps(quizQuestionOption)
-        url = "127.0.0.1:5000/sendquestion"
+            quizQuestionOption["question"]=question.text
+            quizQuestionOption["options"]=optArr
+            print(quizQuestionOption)
+            
+            quiz_json = json.dumps(quizQuestionOption)
+            url = "127.0.0.1:5000/sendquestion"
+            try:
+                response = requests.post(url,json=quiz_json)
+                if response.status_code ==200:
+                    print("Sent Successfully")
+                else:
+                    print(response.status_code)
+            except Exception as e:
+                print(e)
+            self.quizPress(option)
+            quizCounter+=1
+        
+    def quizPress(self,option):
+        print("called quiz press")
         try:
-            response = requests.post(url,json=quiz_json)
-            if response.status_code ==200:
-                print("Sent Successfully")
-            else:
-                print(response.status_code)
-        except Exception as e:
-            print(e)
-        self.quizPress("",1,option)
-    def quizPress(self,str,optNum,option):
-        option[len(option)-1].click()
-        submitButton = self.driver.find_element_by_class_name("quiz-control-panel__text-label")
-        submitButton.click()
-        continueButton = WebDriverWait(self.driver, 1).until(EC.element_to_be_clickable((By.CSS_SELECTOR,".quiz-control-panel__button_right-arrow quiz-control-panel__button_show-arrow")))
-        continueButton.click()
+            optPressButton = self.driver.find_elements_by_class_name("choice-view__choice-container")
+            optPressButton[0].click()
+            print("clicked option")
+            time.sleep(5)
+            try:
+                submitButton = self.driver.find_element_by_class_name("quiz-control-panel__text-label")
+                submitButton.click()
+                print("clicked submit button")
+                time.sleep(5)
+            except:
+                print("submit button kedaikala")
+        except:
+            print("Cant click option")
+        try: 
+            continueButton = self.driver.find_element_by_class_name("quiz-control-panel__button_show-arrow")
+            continueButton.click()
+            print("clicked continue button")
+
+        except:
+            print("Cannot find continue button")
+        self.nextPress()
+        return 
 
     def close(self):
         customPrint("Closed Bot", "INFO")
