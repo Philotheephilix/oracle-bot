@@ -6,6 +6,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import requests
 import json
+import socket
+
 HEADER = '\033[95m'
 OKBLUE = '\033[94m'
 OKCYAN = '\033[96m'
@@ -109,7 +111,7 @@ class Bot:
                 return None
             except Exception as err:
                 time.sleep(TIMEOUT)
-    quiz_detect=""
+            quiz_detect=""
 
     def completeOne(self, item):
         customPrint("Completing One", "INFO")
@@ -163,7 +165,7 @@ class Bot:
                 else:
                     customPrint("Play button not found within the detail div","ERROR")
             except Exception as e:
-                customPrint("Exception occurred:", e,"ERROR")
+                customPrint("Exception occurred:","ERROR")
                 time.sleep(TIMEOUT)
                 break
         return True
@@ -302,12 +304,17 @@ class Bot:
                 response = requests.post(url,json=quiz_json)
                 if response.status_code ==200:
                     print("Sent Successfully")
+                    result = response.json()
+                    finalAnswer = result["message"]
+                    print(finalAnswer)
+                    
                 else:
                     print(response.status_code)
             except Exception as e:
                 print(e)
             self.quizPress(option)
             quizCounter+=1
+            
         
     def quizPress(self,option):
         print("called quiz press")
@@ -334,7 +341,7 @@ class Bot:
             print("Cannot find continue button")
         self.nextPress()
         return 
-
+        
     def close(self):
         customPrint("Closed Bot", "INFO")
         self.driver.close()
