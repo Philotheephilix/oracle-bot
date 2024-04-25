@@ -39,12 +39,12 @@ class Bot:
     default_tab=""
     visited=[]
     def __init__(self):
-        self.driver = webdriver.Chrome(executable_path=DRIVER_PATH)
-        self.driver.get("https://myacademy.oracle.com/lmt/xlr8login.login?site=oa")
+        #self.driver = webdriver.Chrome(executable_path=DRIVER_PATH)
+        #self.driver.get("https://myacademy.oracle.com/lmt/xlr8login.login?site=oa")
     # Connect to the existing Chrome session
-        #options = webdriver.ChromeOptions()
-        #ptions.debugger_address = "localhost:4444"
-        #self.driver = webdriver.Chrome(options=options)
+        options = webdriver.ChromeOptions()
+        options.debugger_address = "localhost:4444"
+        self.driver = webdriver.Chrome(options=options)
 
 
 
@@ -204,7 +204,7 @@ class Bot:
                                             next_button.click()
                                             break
                                     except:
-                                        self.quizExtractor
+                                        self.quizExtractor()
                                     
                                 
                                 except:
@@ -312,7 +312,9 @@ class Bot:
                     print(response.status_code)
             except Exception as e:
                 print(e)
-            self.quizPress(option)
+            if finalAnswer in optArr:
+                index = optArr.index(finalAnswer)
+            self.quizPress(index)
             quizCounter+=1
 
         
@@ -320,14 +322,14 @@ class Bot:
         print("called quiz press")
         try:
             optPressButton = self.driver.find_elements_by_class_name("choice-view__choice-container")
-            optPressButton[0].click()
+            optPressButton[option].click()
             print("clicked option")
-            time.sleep(5)
+            time.sleep(3)
             try:
                 submitButton = self.driver.find_element_by_class_name("quiz-control-panel__text-label")
                 submitButton.click()
                 print("clicked submit button")
-                time.sleep(5)
+                time.sleep(3)
             except:
                 print("submit button kedaikala")
         except:
@@ -339,7 +341,6 @@ class Bot:
 
         except:
             print("Cannot find continue button")
-        self.nextPress()
         return 
         
     def close(self):
