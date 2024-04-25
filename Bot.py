@@ -298,6 +298,14 @@ class Bot:
                 print(response.status_code)
         except Exception as e:
             print(e)
+        self.quizPress("",1,option)
+    def quizPress(self,str,optNum,option):
+        option[len(option)-1].click()
+        submitButton = self.driver.find_element_by_class_name("quiz-control-panel__text-label")
+        submitButton.click()
+        continueButton = WebDriverWait(self.driver, 1).until(EC.element_to_be_clickable((By.CSS_SELECTOR,".quiz-control-panel__button_right-arrow quiz-control-panel__button_show-arrow")))
+        continueButton.click()
+
     def close(self):
         customPrint("Closed Bot", "INFO")
         self.driver.close()
