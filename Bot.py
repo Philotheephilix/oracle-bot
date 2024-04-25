@@ -204,7 +204,7 @@ class Bot:
                                             next_button.click()
                                             break
                                     except:
-                                        self.quizExtractor
+                                        self.quizExtractor()
                                     
                                 
                                 except:
@@ -320,9 +320,9 @@ class Bot:
         print("called quiz press")
         try:
             optPressButton = self.driver.find_elements_by_class_name("choice-view__choice-container")
-            optPressButton[0].click()
+            optPressButton[1].click()
             print("clicked option")
-            time.sleep(5)
+            
             try:
                 submitButton = self.driver.find_element_by_class_name("quiz-control-panel__text-label")
                 submitButton.click()
@@ -331,15 +331,21 @@ class Bot:
             except:
                 print("submit button kedaikala")
         except:
+        
             print("Cant click option")
-        try: 
-            continueButton = self.driver.find_element_by_class_name("quiz-control-panel__button_show-arrow")
-            continueButton.click()
-            print("clicked continue button")
+        try:
+            
+                continueButton = self.driver.find_element_by_class_name("quiz-control-panel__button_show-arrow")
+                continueButton.click()
+                print("clicked continue button")
 
+            
         except:
-            print("Cannot find continue button")
-        self.nextPress()
+            
+                viewResult = self.driver.find_element_by_class_name("quiz-control-panel__container_right")
+                viewResult.click()
+                print("clicked view result button")
+            
         return 
         
     def close(self):
