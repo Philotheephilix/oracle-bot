@@ -299,7 +299,7 @@ class Bot:
             print(quizQuestionOption)
             
             quiz_json = json.dumps(quizQuestionOption)
-            url = "127.0.0.1:5000/sendquestion"
+            url = "http://127.0.0.1:5000/sendquestion"
             try:
                 response = requests.post(url,json=quiz_json)
                 if response.status_code ==200:
@@ -314,7 +314,7 @@ class Bot:
                 print(e)
             self.quizPress(option)
             quizCounter+=1
-            
+
         
     def quizPress(self,option):
         print("called quiz press")
