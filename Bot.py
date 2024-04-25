@@ -333,14 +333,21 @@ class Bot:
             except:
                 print("submit button kedaikala")
         except:
+        
             print("Cant click option")
-        try: 
-            continueButton = self.driver.find_element_by_class_name("quiz-control-panel__button_show-arrow")
-            continueButton.click()
-            print("clicked continue button")
+        try:
+            
+                continueButton = self.driver.find_element_by_class_name("quiz-control-panel__button_show-arrow")
+                continueButton.click()
+                print("clicked continue button")
 
+            
         except:
-            print("Cannot find continue button")
+            
+                viewResult = self.driver.find_element_by_class_name("quiz-control-panel__container_right")
+                viewResult.click()
+                print("clicked view result button")
+            
         return 
         
     def close(self):
