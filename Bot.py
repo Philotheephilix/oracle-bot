@@ -6,6 +6,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import requests
 import json
+import socket
+
 HEADER = '\033[95m'
 OKBLUE = '\033[94m'
 OKCYAN = '\033[96m'
@@ -37,12 +39,12 @@ class Bot:
     default_tab=""
     visited=[]
     def __init__(self):
-        self.driver = webdriver.Chrome(executable_path=DRIVER_PATH)
-        self.driver.get("https://myacademy.oracle.com/lmt/xlr8login.login?site=oa")
+        #self.driver = webdriver.Chrome(executable_path=DRIVER_PATH)
+        #self.driver.get("https://myacademy.oracle.com/lmt/xlr8login.login?site=oa")
     # Connect to the existing Chrome session
-        #options = webdriver.ChromeOptions()
-        #options.debugger_address = "localhost:4444"
-        #self.driver = webdriver.Chrome(options=options)
+        options = webdriver.ChromeOptions()
+        options.debugger_address = "localhost:4444"
+        self.driver = webdriver.Chrome(options=options)
 
 
 
@@ -164,7 +166,7 @@ class Bot:
                 else:
                     customPrint("Play button not found within the detail div","ERROR")
             except Exception as e:
-                customPrint("Exception occurred:", e,"ERROR")
+                customPrint("Exception occurred:","ERROR")
                 time.sleep(TIMEOUT)
                 break
         return True
@@ -289,11 +291,14 @@ class Bot:
         print(quizQuestionOption)
 
         quiz_json = json.dumps(quizQuestionOption)
-        url = "127.0.0.1:5000/sendquestion"
+        url = "http://127.0.0.1:5000/sendquestion"
         try:
             response = requests.post(url,json=quiz_json)
             if response.status_code ==200:
                 print("Sent Successfully")
+                result = response.json()
+                finalAnswer = result["message"]
+                print(finalAnswer)
             else:
                 print(response.status_code)
         except Exception as e:
