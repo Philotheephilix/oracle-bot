@@ -39,12 +39,12 @@ class Bot:
     default_tab=""
     visited=[]
     def __init__(self):
-        #self.driver = webdriver.Chrome(executable_path=DRIVER_PATH)
-        #self.driver.get("https://myacademy.oracle.com/lmt/xlr8login.login?site=oa")
+        self.driver = webdriver.Chrome(executable_path=DRIVER_PATH)
+        self.driver.get("https://myacademy.oracle.com/lmt/xlr8login.login?site=oa")
     # Connect to the existing Chrome session
-        options = webdriver.ChromeOptions()
-        options.debugger_address = "localhost:4444"
-        self.driver = webdriver.Chrome(options=options)
+        #options = webdriver.ChromeOptions()
+        #options.debugger_address = "localhost:4444"
+        #self.driver = webdriver.Chrome(options=options)
 
 
 
@@ -172,6 +172,7 @@ class Bot:
     def nextPress(self):
         runner=True
         flag = 0
+        flag1=0
         while True:
             if flag!=0:
                 break
@@ -183,6 +184,7 @@ class Bot:
                     try:  
                         max_wait_time = 5 
                         elapsed_time=0
+                        
                         
                         if runner:
                             while True:
@@ -204,7 +206,14 @@ class Bot:
                                             next_button.click()
                                             break
                                     except:
-                                        self.quizExtractor()
+                                        if flag1==0:
+                                            time.sleep(2)
+                                            self.quizExtractor()
+                                            flag1 = 1
+                                            break
+                                        if flag1==1:
+                                            raise "myException" 
+                                        
                                     
                                 
                                 except:
@@ -282,17 +291,19 @@ class Bot:
             optArr = []
             try: 
                 question = self.driver.find_element_by_class_name("player-shape-view__shape-view-rich-text-view_wrap-text")
-                print(question.text)
+                
                 try: 
                     option = self.driver.find_elements_by_class_name("choice-view")
                     for i in option:
                         optArr.append(i.text)
-                        print(i.text)
+                        
                 except:
-                    print("options kedaikala")
+                    customPrint("options not found","ERROR")
             
             except:
-                print("not found")
+                customPrint("question not found","ERROR")
+                quizCounter+=1
+                return
 
             quizQuestionOption["question"]=question.text
             quizQuestionOption["options"]=optArr
@@ -303,50 +314,47 @@ class Bot:
             try:
                 response = requests.post(url,json=quiz_json)
                 if response.status_code ==200:
-                    print("Sent Successfully")
+                    customPrint("Question Sent Succesfully","SUCCESS")
                     result = response.json()
                     finalAnswer = result["message"]
-                    print(finalAnswer)
                     
                 else:
-                    print(response.status_code)
+                    pass
             except Exception as e:
                 print(e)
             if finalAnswer in optArr:
                 index = optArr.index(finalAnswer)
+            else:
+                index = 0
             self.quizPress(index)
             quizCounter+=1
 
         
     def quizPress(self,option):
-        print("called quiz press")
         try:
             optPressButton = self.driver.find_elements_by_class_name("choice-view__choice-container")
             optPressButton[option].click()
-            print("clicked option")
-            time.sleep(3)
+            customPrint("clicked option","INFO")
+            
             try:
                 submitButton = self.driver.find_element_by_class_name("quiz-control-panel__text-label")
                 submitButton.click()
-                print("clicked submit button")
-                time.sleep(3)
+                customPrint("clicked submit button","INFO")
             except:
-                print("submit button kedaikala")
+                customPrint("SUBMIT BUTTON NOT FOUND","ERROR")
         except:
-        
-            print("Cant click option")
+            customPrint("OPTIONS NOT FOUND","ERROR")
+            pass
         try:
             
                 continueButton = self.driver.find_element_by_class_name("quiz-control-panel__button_show-arrow")
                 continueButton.click()
-                print("clicked continue button")
 
             
         except:
             
                 viewResult = self.driver.find_element_by_class_name("quiz-control-panel__container_right")
                 viewResult.click()
-                print("clicked view result button")
             
         return 
         
