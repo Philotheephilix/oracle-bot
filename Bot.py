@@ -39,12 +39,12 @@ class Bot:
     default_tab=""
     visited=[]
     def __init__(self):
-        self.driver = webdriver.Chrome(executable_path=DRIVER_PATH)
-        self.driver.get("https://myacademy.oracle.com/lmt/xlr8login.login?site=oa")
+        #self.driver = webdriver.Chrome(executable_path=DRIVER_PATH)
+        #self.driver.get("https://myacademy.oracle.com/lmt/xlr8login.login?site=oa")
     # Connect to the existing Chrome session
-        #options = webdriver.ChromeOptions()
-        #options.debugger_address = "localhost:4444"
-        #self.driver = webdriver.Chrome(options=options)
+        options = webdriver.ChromeOptions()
+        options.debugger_address = "localhost:4444"
+        self.driver = webdriver.Chrome(options=options)
 
 
 
@@ -199,15 +199,24 @@ class Bot:
                                             next_button.click()
                                             break
                                         except:
-                                            # Check if the next button is clickable
-                                            next_button = WebDriverWait(self.driver, 1).until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".uikit-primary-button_next, .uikit-primary-button_next navigation-controls__button_next")))
-                                            # If found, click on it and exit the loop
-                                            
-                                            next_button.click()
-                                            break
+                                            try:
+                                                # Check if the next button is clickable
+                                                next_button = WebDriverWait(self.driver, 1).until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".uikit-primary-button_next, .uikit-primary-button_next navigation-controls__button_next")))
+                                                # If found, click on it and exit the loop
+                                                
+                                                next_button.click()
+                                                break
+                                            except:
+                                                
+                                                next_button = WebDriverWait(self.driver, 1).until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".window-button, .window-button_yes")))
+                                                # If found, click on it and exit the loop
+                                                
+                                                next_button.click()
+                                                break
                                     except:
                                         if flag1==0:
                                             time.sleep(2)
+                                            elapsed_time=0
                                             self.quizExtractor()
                                             flag1 = 1
                                             break
