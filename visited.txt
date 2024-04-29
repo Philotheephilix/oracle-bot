@@ -1,0 +1,1304 @@
+PL/SQL 1-1: Introduction to PL/SQL
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 1-3: Creating PL/SQL Blocks
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL Section 1 Quiz
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-4: Using Scalar Data Types
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-5: Writing PL/SQL Executable Statements
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL Section 2 Quiz
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL Section 3 Quiz
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL Section 4 Quiz
+PL/SQL Database Programming Semester 1 Midterm Exam
+PL/SQL 5-1: Introduction to Explicit Cursors
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-2: Using Explicit Cursor Attributes
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 5-5: Using Cursors For Update
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 5-6: Using Multiple Cursors
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 5-6: Using Multiple Cursors
+PL/SQL Section 5 Quiz
+PL/SQL 6-1: User-Defined Records
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 5-6: Using Multiple Cursors
+PL/SQL 6-1: User-Defined Records
+PL/SQL 6-2: Indexing Tables of Records
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 5-6: Using Multiple Cursors
+PL/SQL 6-1: User-Defined Records
+PL/SQL Section 6 Quiz
+PL/SQL 7-1: Handling Exceptions
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 5-6: Using Multiple Cursors
+PL/SQL 6-1: User-Defined Records
+PL/SQL 7-2: Trapping Oracle Server Exceptions
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 5-6: Using Multiple Cursors
+PL/SQL 6-1: User-Defined Records
+PL/SQL 7-2: Trapping Oracle Server Exceptions
+PL/SQL 7-3: Trapping User-Defined Exceptions
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 5-6: Using Multiple Cursors
+PL/SQL 6-1: User-Defined Records
+PL/SQL 7-2: Trapping Oracle Server Exceptions
+PL/SQL 7-3: Trapping User-Defined Exceptions
+PL/SQL 7-4: Recognizing the Scope of Exceptions
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 5-6: Using Multiple Cursors
+PL/SQL 6-1: User-Defined Records
+PL/SQL 7-2: Trapping Oracle Server Exceptions
+PL/SQL 7-3: Trapping User-Defined Exceptions
+PL/SQL Section 7 Quiz
+PL/SQL 8-1: Creating Procedures
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 5-6: Using Multiple Cursors
+PL/SQL 6-1: User-Defined Records
+PL/SQL 7-2: Trapping Oracle Server Exceptions
+PL/SQL 7-3: Trapping User-Defined Exceptions
+PL/SQL 8-1: Creating Procedures
+PL/SQL 8-2: Using Parameters in Procedures
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 5-6: Using Multiple Cursors
+PL/SQL 6-1: User-Defined Records
+PL/SQL 7-2: Trapping Oracle Server Exceptions
+PL/SQL 7-3: Trapping User-Defined Exceptions
+PL/SQL 8-1: Creating Procedures
+PL/SQL 8-2: Using Parameters in Procedures
+PL/SQL 8-3: Passing Parameters
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 5-6: Using Multiple Cursors
+PL/SQL 6-1: User-Defined Records
+PL/SQL 7-2: Trapping Oracle Server Exceptions
+PL/SQL 7-3: Trapping User-Defined Exceptions
+PL/SQL 8-1: Creating Procedures
+PL/SQL 8-2: Using Parameters in Procedures
+PL/SQL 8-3: Passing Parameters
+PL/SQL Section 8 Quiz
+PL/SQL 9-1: Creating Functions
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 5-6: Using Multiple Cursors
+PL/SQL 6-1: User-Defined Records
+PL/SQL 7-2: Trapping Oracle Server Exceptions
+PL/SQL 7-3: Trapping User-Defined Exceptions
+PL/SQL 8-1: Creating Procedures
+PL/SQL 8-2: Using Parameters in Procedures
+PL/SQL 8-3: Passing Parameters
+PL/SQL 9-2: Using Functions in SQL Statements
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 5-6: Using Multiple Cursors
+PL/SQL 6-1: User-Defined Records
+PL/SQL 7-2: Trapping Oracle Server Exceptions
+PL/SQL 7-3: Trapping User-Defined Exceptions
+PL/SQL 8-1: Creating Procedures
+PL/SQL 8-2: Using Parameters in Procedures
+PL/SQL 8-3: Passing Parameters
+PL/SQL 9-3: Review of Data Dictionary
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 5-6: Using Multiple Cursors
+PL/SQL 6-1: User-Defined Records
+PL/SQL 7-2: Trapping Oracle Server Exceptions
+PL/SQL 7-3: Trapping User-Defined Exceptions
+PL/SQL 8-1: Creating Procedures
+PL/SQL 8-2: Using Parameters in Procedures
+PL/SQL 8-3: Passing Parameters
+PL/SQL 9-3: Review of Data Dictionary
+PL/SQL 9-4: Managing Procedures and Functions
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 5-6: Using Multiple Cursors
+PL/SQL 6-1: User-Defined Records
+PL/SQL 7-2: Trapping Oracle Server Exceptions
+PL/SQL 7-3: Trapping User-Defined Exceptions
+PL/SQL 8-1: Creating Procedures
+PL/SQL 8-2: Using Parameters in Procedures
+PL/SQL 8-3: Passing Parameters
+PL/SQL 9-3: Review of Data Dictionary
+PL/SQL 9-4: Managing Procedures and Functions
+PL/SQL 9-5: Review of Object Privileges
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 5-6: Using Multiple Cursors
+PL/SQL 6-1: User-Defined Records
+PL/SQL 7-2: Trapping Oracle Server Exceptions
+PL/SQL 7-3: Trapping User-Defined Exceptions
+PL/SQL 8-1: Creating Procedures
+PL/SQL 8-2: Using Parameters in Procedures
+PL/SQL 8-3: Passing Parameters
+PL/SQL 9-3: Review of Data Dictionary
+PL/SQL 9-4: Managing Procedures and Functions
+PL/SQL 9-5: Review of Object Privileges
+PL/SQL 9-6: Using Invoker's Rights and Autonomous Transactions
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 5-6: Using Multiple Cursors
+PL/SQL 6-1: User-Defined Records
+PL/SQL 7-2: Trapping Oracle Server Exceptions
+PL/SQL 7-3: Trapping User-Defined Exceptions
+PL/SQL 8-1: Creating Procedures
+PL/SQL 8-2: Using Parameters in Procedures
+PL/SQL 8-3: Passing Parameters
+PL/SQL 9-3: Review of Data Dictionary
+PL/SQL 9-4: Managing Procedures and Functions
+PL/SQL 9-5: Review of Object Privileges
+PL/SQL 9-6: Using Invoker's Rights and Autonomous Transactions
+PL/SQL Section 9 Quiz
+PL/SQL Database Programming Semester 1 Final Exam
+PL/SQL 10-1: Creating Packages
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 5-6: Using Multiple Cursors
+PL/SQL 6-1: User-Defined Records
+PL/SQL 7-2: Trapping Oracle Server Exceptions
+PL/SQL 7-3: Trapping User-Defined Exceptions
+PL/SQL 8-1: Creating Procedures
+PL/SQL 8-2: Using Parameters in Procedures
+PL/SQL 8-3: Passing Parameters
+PL/SQL 9-3: Review of Data Dictionary
+PL/SQL 9-4: Managing Procedures and Functions
+PL/SQL 9-5: Review of Object Privileges
+PL/SQL 9-6: Using Invoker's Rights and Autonomous Transactions
+PL/SQL 10-2: Managing Package Concepts
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 5-6: Using Multiple Cursors
+PL/SQL 6-1: User-Defined Records
+PL/SQL 7-2: Trapping Oracle Server Exceptions
+PL/SQL 7-3: Trapping User-Defined Exceptions
+PL/SQL 8-1: Creating Procedures
+PL/SQL 8-2: Using Parameters in Procedures
+PL/SQL 8-3: Passing Parameters
+PL/SQL 9-3: Review of Data Dictionary
+PL/SQL 9-4: Managing Procedures and Functions
+PL/SQL 9-5: Review of Object Privileges
+PL/SQL 9-6: Using Invoker's Rights and Autonomous Transactions
+PL/SQL 10-2: Managing Package Concepts
+PL/SQL 10-3: Advanced Package Concepts
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 5-6: Using Multiple Cursors
+PL/SQL 6-1: User-Defined Records
+PL/SQL 7-2: Trapping Oracle Server Exceptions
+PL/SQL 7-3: Trapping User-Defined Exceptions
+PL/SQL 8-1: Creating Procedures
+PL/SQL 8-2: Using Parameters in Procedures
+PL/SQL 8-3: Passing Parameters
+PL/SQL 9-3: Review of Data Dictionary
+PL/SQL 9-4: Managing Procedures and Functions
+PL/SQL 9-5: Review of Object Privileges
+PL/SQL 9-6: Using Invoker's Rights and Autonomous Transactions
+PL/SQL 10-2: Managing Package Concepts
+PL/SQL 10-3: Advanced Package Concepts
+PL/SQL Section 10 Quiz
+PL/SQL 11-1: Persistent State of Package Variables
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 5-6: Using Multiple Cursors
+PL/SQL 6-1: User-Defined Records
+PL/SQL 7-2: Trapping Oracle Server Exceptions
+PL/SQL 7-3: Trapping User-Defined Exceptions
+PL/SQL 8-1: Creating Procedures
+PL/SQL 8-2: Using Parameters in Procedures
+PL/SQL 8-3: Passing Parameters
+PL/SQL 9-3: Review of Data Dictionary
+PL/SQL 9-4: Managing Procedures and Functions
+PL/SQL 9-5: Review of Object Privileges
+PL/SQL 9-6: Using Invoker's Rights and Autonomous Transactions
+PL/SQL 10-2: Managing Package Concepts
+PL/SQL 10-3: Advanced Package Concepts
+PL/SQL 11-1: Persistent State of Package Variables
+PL/SQL 11-2: Using Oracle-Supplied Packages
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 5-6: Using Multiple Cursors
+PL/SQL 6-1: User-Defined Records
+PL/SQL 7-2: Trapping Oracle Server Exceptions
+PL/SQL 7-3: Trapping User-Defined Exceptions
+PL/SQL 8-1: Creating Procedures
+PL/SQL 8-2: Using Parameters in Procedures
+PL/SQL 8-3: Passing Parameters
+PL/SQL 9-3: Review of Data Dictionary
+PL/SQL 9-4: Managing Procedures and Functions
+PL/SQL 9-5: Review of Object Privileges
+PL/SQL 9-6: Using Invoker's Rights and Autonomous Transactions
+PL/SQL 10-2: Managing Package Concepts
+PL/SQL 10-3: Advanced Package Concepts
+PL/SQL 11-1: Persistent State of Package Variables
+PL/SQL 11-2: Using Oracle-Supplied Packages
+PL/SQL Section 11 Quiz
+PL/SQL 12-1: Using Dynamic SQL
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 5-6: Using Multiple Cursors
+PL/SQL 6-1: User-Defined Records
+PL/SQL 7-2: Trapping Oracle Server Exceptions
+PL/SQL 7-3: Trapping User-Defined Exceptions
+PL/SQL 8-1: Creating Procedures
+PL/SQL 8-2: Using Parameters in Procedures
+PL/SQL 8-3: Passing Parameters
+PL/SQL 9-3: Review of Data Dictionary
+PL/SQL 9-4: Managing Procedures and Functions
+PL/SQL 9-5: Review of Object Privileges
+PL/SQL 9-6: Using Invoker's Rights and Autonomous Transactions
+PL/SQL 10-2: Managing Package Concepts
+PL/SQL 10-3: Advanced Package Concepts
+PL/SQL 11-1: Persistent State of Package Variables
+PL/SQL 11-2: Using Oracle-Supplied Packages
+PL/SQL 12-2: Improving PL/SQL Performance
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 5-6: Using Multiple Cursors
+PL/SQL 6-1: User-Defined Records
+PL/SQL 7-2: Trapping Oracle Server Exceptions
+PL/SQL 7-3: Trapping User-Defined Exceptions
+PL/SQL 8-1: Creating Procedures
+PL/SQL 8-2: Using Parameters in Procedures
+PL/SQL 8-3: Passing Parameters
+PL/SQL 9-3: Review of Data Dictionary
+PL/SQL 9-4: Managing Procedures and Functions
+PL/SQL 9-5: Review of Object Privileges
+PL/SQL 9-6: Using Invoker's Rights and Autonomous Transactions
+PL/SQL 10-2: Managing Package Concepts
+PL/SQL 10-3: Advanced Package Concepts
+PL/SQL 11-1: Persistent State of Package Variables
+PL/SQL 11-2: Using Oracle-Supplied Packages
+PL/SQL Section 12 Quiz
+PL/SQL Database Programming Semester 2 Midterm Exam
+PL/SQL 13-1: Introduction to Triggers
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 5-6: Using Multiple Cursors
+PL/SQL 6-1: User-Defined Records
+PL/SQL 7-2: Trapping Oracle Server Exceptions
+PL/SQL 7-3: Trapping User-Defined Exceptions
+PL/SQL 8-1: Creating Procedures
+PL/SQL 8-2: Using Parameters in Procedures
+PL/SQL 8-3: Passing Parameters
+PL/SQL 9-3: Review of Data Dictionary
+PL/SQL 9-4: Managing Procedures and Functions
+PL/SQL 9-5: Review of Object Privileges
+PL/SQL 9-6: Using Invoker's Rights and Autonomous Transactions
+PL/SQL 10-2: Managing Package Concepts
+PL/SQL 10-3: Advanced Package Concepts
+PL/SQL 11-1: Persistent State of Package Variables
+PL/SQL 11-2: Using Oracle-Supplied Packages
+PL/SQL 13-1: Introduction to Triggers
+PL/SQL 13-2: Creating DML Triggers: Part I
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 5-6: Using Multiple Cursors
+PL/SQL 6-1: User-Defined Records
+PL/SQL 7-2: Trapping Oracle Server Exceptions
+PL/SQL 7-3: Trapping User-Defined Exceptions
+PL/SQL 8-1: Creating Procedures
+PL/SQL 8-2: Using Parameters in Procedures
+PL/SQL 8-3: Passing Parameters
+PL/SQL 9-3: Review of Data Dictionary
+PL/SQL 9-4: Managing Procedures and Functions
+PL/SQL 9-5: Review of Object Privileges
+PL/SQL 9-6: Using Invoker's Rights and Autonomous Transactions
+PL/SQL 10-2: Managing Package Concepts
+PL/SQL 10-3: Advanced Package Concepts
+PL/SQL 11-1: Persistent State of Package Variables
+PL/SQL 11-2: Using Oracle-Supplied Packages
+PL/SQL 13-1: Introduction to Triggers
+PL/SQL 13-2: Creating DML Triggers: Part I
+PL/SQL 13-3: Creating DML Triggers: Part II
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 5-6: Using Multiple Cursors
+PL/SQL 6-1: User-Defined Records
+PL/SQL 7-2: Trapping Oracle Server Exceptions
+PL/SQL 7-3: Trapping User-Defined Exceptions
+PL/SQL 8-1: Creating Procedures
+PL/SQL 8-2: Using Parameters in Procedures
+PL/SQL 8-3: Passing Parameters
+PL/SQL 9-3: Review of Data Dictionary
+PL/SQL 9-4: Managing Procedures and Functions
+PL/SQL 9-5: Review of Object Privileges
+PL/SQL 9-6: Using Invoker's Rights and Autonomous Transactions
+PL/SQL 10-2: Managing Package Concepts
+PL/SQL 10-3: Advanced Package Concepts
+PL/SQL 11-1: Persistent State of Package Variables
+PL/SQL 11-2: Using Oracle-Supplied Packages
+PL/SQL 13-1: Introduction to Triggers
+PL/SQL 13-2: Creating DML Triggers: Part I
+PL/SQL 13-3: Creating DML Triggers: Part II
+PL/SQL 13-4: Creating DDL and Database Event Triggers
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 5-6: Using Multiple Cursors
+PL/SQL 6-1: User-Defined Records
+PL/SQL 7-2: Trapping Oracle Server Exceptions
+PL/SQL 7-3: Trapping User-Defined Exceptions
+PL/SQL 8-1: Creating Procedures
+PL/SQL 8-2: Using Parameters in Procedures
+PL/SQL 8-3: Passing Parameters
+PL/SQL 9-3: Review of Data Dictionary
+PL/SQL 9-4: Managing Procedures and Functions
+PL/SQL 9-5: Review of Object Privileges
+PL/SQL 9-6: Using Invoker's Rights and Autonomous Transactions
+PL/SQL 10-2: Managing Package Concepts
+PL/SQL 10-3: Advanced Package Concepts
+PL/SQL 11-1: Persistent State of Package Variables
+PL/SQL 11-2: Using Oracle-Supplied Packages
+PL/SQL 13-1: Introduction to Triggers
+PL/SQL 13-2: Creating DML Triggers: Part I
+PL/SQL 13-3: Creating DML Triggers: Part II
+PL/SQL 13-5: Managing Triggers
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 5-6: Using Multiple Cursors
+PL/SQL 6-1: User-Defined Records
+PL/SQL 7-2: Trapping Oracle Server Exceptions
+PL/SQL 7-3: Trapping User-Defined Exceptions
+PL/SQL 8-1: Creating Procedures
+PL/SQL 8-2: Using Parameters in Procedures
+PL/SQL 8-3: Passing Parameters
+PL/SQL 9-3: Review of Data Dictionary
+PL/SQL 9-4: Managing Procedures and Functions
+PL/SQL 9-5: Review of Object Privileges
+PL/SQL 9-6: Using Invoker's Rights and Autonomous Transactions
+PL/SQL 10-2: Managing Package Concepts
+PL/SQL 10-3: Advanced Package Concepts
+PL/SQL 11-1: Persistent State of Package Variables
+PL/SQL 11-2: Using Oracle-Supplied Packages
+PL/SQL 13-1: Introduction to Triggers
+PL/SQL 13-2: Creating DML Triggers: Part I
+PL/SQL 13-3: Creating DML Triggers: Part II
+PL/SQL 13-5: Managing Triggers
+PL/SQL Section 13 Quiz
+PL/SQL 14-1: Introduction to Dependencies
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 5-6: Using Multiple Cursors
+PL/SQL 6-1: User-Defined Records
+PL/SQL 7-2: Trapping Oracle Server Exceptions
+PL/SQL 7-3: Trapping User-Defined Exceptions
+PL/SQL 8-1: Creating Procedures
+PL/SQL 8-2: Using Parameters in Procedures
+PL/SQL 8-3: Passing Parameters
+PL/SQL 9-3: Review of Data Dictionary
+PL/SQL 9-4: Managing Procedures and Functions
+PL/SQL 9-5: Review of Object Privileges
+PL/SQL 9-6: Using Invoker's Rights and Autonomous Transactions
+PL/SQL 10-2: Managing Package Concepts
+PL/SQL 10-3: Advanced Package Concepts
+PL/SQL 11-1: Persistent State of Package Variables
+PL/SQL 11-2: Using Oracle-Supplied Packages
+PL/SQL 13-1: Introduction to Triggers
+PL/SQL 13-2: Creating DML Triggers: Part I
+PL/SQL 13-3: Creating DML Triggers: Part II
+PL/SQL 13-5: Managing Triggers
+PL/SQL 14-1: Introduction to Dependencies
+PL/SQL 14-2: Understanding Remote Dependencies
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 5-6: Using Multiple Cursors
+PL/SQL 6-1: User-Defined Records
+PL/SQL 7-2: Trapping Oracle Server Exceptions
+PL/SQL 7-3: Trapping User-Defined Exceptions
+PL/SQL 8-1: Creating Procedures
+PL/SQL 8-2: Using Parameters in Procedures
+PL/SQL 8-3: Passing Parameters
+PL/SQL 9-3: Review of Data Dictionary
+PL/SQL 9-4: Managing Procedures and Functions
+PL/SQL 9-5: Review of Object Privileges
+PL/SQL 9-6: Using Invoker's Rights and Autonomous Transactions
+PL/SQL 10-2: Managing Package Concepts
+PL/SQL 10-3: Advanced Package Concepts
+PL/SQL 11-1: Persistent State of Package Variables
+PL/SQL 11-2: Using Oracle-Supplied Packages
+PL/SQL 13-1: Introduction to Triggers
+PL/SQL 13-2: Creating DML Triggers: Part I
+PL/SQL 13-3: Creating DML Triggers: Part II
+PL/SQL 13-5: Managing Triggers
+PL/SQL 14-1: Introduction to Dependencies
+PL/SQL Section 14 Quiz
+PL/SQL 15-1: Using PL/SQL Initialization Parameters
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 5-6: Using Multiple Cursors
+PL/SQL 6-1: User-Defined Records
+PL/SQL 7-2: Trapping Oracle Server Exceptions
+PL/SQL 7-3: Trapping User-Defined Exceptions
+PL/SQL 8-1: Creating Procedures
+PL/SQL 8-2: Using Parameters in Procedures
+PL/SQL 8-3: Passing Parameters
+PL/SQL 9-3: Review of Data Dictionary
+PL/SQL 9-4: Managing Procedures and Functions
+PL/SQL 9-5: Review of Object Privileges
+PL/SQL 9-6: Using Invoker's Rights and Autonomous Transactions
+PL/SQL 10-2: Managing Package Concepts
+PL/SQL 10-3: Advanced Package Concepts
+PL/SQL 11-1: Persistent State of Package Variables
+PL/SQL 11-2: Using Oracle-Supplied Packages
+PL/SQL 13-1: Introduction to Triggers
+PL/SQL 13-2: Creating DML Triggers: Part I
+PL/SQL 13-3: Creating DML Triggers: Part II
+PL/SQL 13-5: Managing Triggers
+PL/SQL 14-1: Introduction to Dependencies
+PL/SQL 15-2: Displaying Compiler Warning Messages
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 5-6: Using Multiple Cursors
+PL/SQL 6-1: User-Defined Records
+PL/SQL 7-2: Trapping Oracle Server Exceptions
+PL/SQL 7-3: Trapping User-Defined Exceptions
+PL/SQL 8-1: Creating Procedures
+PL/SQL 8-2: Using Parameters in Procedures
+PL/SQL 8-3: Passing Parameters
+PL/SQL 9-3: Review of Data Dictionary
+PL/SQL 9-4: Managing Procedures and Functions
+PL/SQL 9-5: Review of Object Privileges
+PL/SQL 9-6: Using Invoker's Rights and Autonomous Transactions
+PL/SQL 10-2: Managing Package Concepts
+PL/SQL 10-3: Advanced Package Concepts
+PL/SQL 11-1: Persistent State of Package Variables
+PL/SQL 11-2: Using Oracle-Supplied Packages
+PL/SQL 13-1: Introduction to Triggers
+PL/SQL 13-2: Creating DML Triggers: Part I
+PL/SQL 13-3: Creating DML Triggers: Part II
+PL/SQL 13-5: Managing Triggers
+PL/SQL 14-1: Introduction to Dependencies
+PL/SQL 15-3: Using Conditional Compilation
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 5-6: Using Multiple Cursors
+PL/SQL 6-1: User-Defined Records
+PL/SQL 7-2: Trapping Oracle Server Exceptions
+PL/SQL 7-3: Trapping User-Defined Exceptions
+PL/SQL 8-1: Creating Procedures
+PL/SQL 8-2: Using Parameters in Procedures
+PL/SQL 8-3: Passing Parameters
+PL/SQL 9-3: Review of Data Dictionary
+PL/SQL 9-4: Managing Procedures and Functions
+PL/SQL 9-5: Review of Object Privileges
+PL/SQL 9-6: Using Invoker's Rights and Autonomous Transactions
+PL/SQL 10-2: Managing Package Concepts
+PL/SQL 10-3: Advanced Package Concepts
+PL/SQL 11-1: Persistent State of Package Variables
+PL/SQL 11-2: Using Oracle-Supplied Packages
+PL/SQL 13-1: Introduction to Triggers
+PL/SQL 13-2: Creating DML Triggers: Part I
+PL/SQL 13-3: Creating DML Triggers: Part II
+PL/SQL 13-5: Managing Triggers
+PL/SQL 14-1: Introduction to Dependencies
+PL/SQL 15-4: Hiding your Source Code
+PL/SQL 1-2: Benefits of PL/SQL
+PL/SQL 2-1: Using Variables in PL/SQL
+PL/SQL 2-2: Recognizing PL/SQL Lexical Units
+PL/SQL 2-3: Recognizing Data Types
+PL/SQL 2-6: Nested Blocks and Variable Scope
+PL/SQL 2-7: Good Programming Practices
+PL/SQL 3-1: Review of SQL DML
+PL/SQL 3-2: Retrieving Data in PL/SQL
+PL/SQL 3-3: Manipulating Data in PL/SQL
+PL/SQL 3-4: Using Transaction Control Statements
+PL/SQL 4-1: Conditional Control: IF Statements
+PL/SQL 4-2: Conditional Control: Case Statements
+PL/SQL 4-3: Iterative Control: Basic Loops
+PL/SQL 4-4: Iterative Control: WHILE and FOR Loops
+PL/SQL 4-5: Iterative Control: Nested Loops
+PL/SQL 5-3: Cursor FOR Loops
+PL/SQL 5-4: Cursors with Parameters
+PL/SQL 5-6: Using Multiple Cursors
+PL/SQL 6-1: User-Defined Records
+PL/SQL 7-2: Trapping Oracle Server Exceptions
+PL/SQL 7-3: Trapping User-Defined Exceptions
+PL/SQL 8-1: Creating Procedures
+PL/SQL 8-2: Using Parameters in Procedures
+PL/SQL 8-3: Passing Parameters
+PL/SQL 9-3: Review of Data Dictionary
+PL/SQL 9-4: Managing Procedures and Functions
+PL/SQL 9-5: Review of Object Privileges
+PL/SQL 9-6: Using Invoker's Rights and Autonomous Transactions
+PL/SQL 10-2: Managing Package Concepts
+PL/SQL 10-3: Advanced Package Concepts
+PL/SQL 11-1: Persistent State of Package Variables
+PL/SQL 11-2: Using Oracle-Supplied Packages
+PL/SQL 13-1: Introduction to Triggers
+PL/SQL 13-2: Creating DML Triggers: Part I
+PL/SQL 13-3: Creating DML Triggers: Part II
+PL/SQL 13-5: Managing Triggers
+PL/SQL 14-1: Introduction to Dependencies
+PL/SQL Section 15 Quiz
+PL/SQL Database Programming Semester 2 Final Exam
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DP 16-1: Working with Sequences
+DP 16-2: Indexes and Synonyms
+DP Section 16 Quiz
+
+
+
+
+
+
+
+
+
+
+

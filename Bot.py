@@ -6,7 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import requests
 import json
-import socket
+
 
 HEADER = '\033[95m'
 OKBLUE = '\033[94m'
@@ -39,12 +39,12 @@ class Bot:
     default_tab=""
     visited=[]
     def __init__(self):
-        #self.driver = webdriver.Chrome(executable_path=DRIVER_PATH)
-        #self.driver.get("https://myacademy.oracle.com/lmt/xlr8login.login?site=oa")
+        self.driver = webdriver.Chrome(executable_path=DRIVER_PATH)
+        self.driver.get("https://myacademy.oracle.com/lmt/xlr8login.login?site=oa")
     # Connect to the existing Chrome session
-        options = webdriver.ChromeOptions()
-        options.debugger_address = "localhost:4444"
-        self.driver = webdriver.Chrome(options=options)
+        #options = webdriver.ChromeOptions()
+        #options.debugger_address = "localhost:4444"
+        #self.driver = webdriver.Chrome(options=options)
 
 
 
