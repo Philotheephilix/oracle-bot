@@ -6,6 +6,8 @@ Oracle Bot is an automation tool designed to assist in completing the Database P
 - Automated Course Completion: Oracle Bot automates the completion of Database Programming with SQL courses on Oracle Academy.
 - Log-in Automation: The bot handles the log-in process to Oracle Academy, saving you time and effort.
 - Course Navigation: Oracle Bot navigates through the course material, completing assignments and quizzes as required.
+## Quiz Solver
+To use Quiz solver Functionality check out <a href="https://github.com/Philotheephilix/Quiz-Solver-Using-LLM-api-s">Quiz-Solver-Using-LLM-api-s</a>
 ## Prerequisites
 Before using Oracle Bot, ensure you have:
 
